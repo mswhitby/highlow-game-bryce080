@@ -1,3 +1,5 @@
+import random
+
 x = int(input("Type a number from 1-100:"))
 
 random_num = random.randint(1, 100)
