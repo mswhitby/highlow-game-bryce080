@@ -2,7 +2,7 @@ x = int(input("Type a number from 1-100:"))
 
 random_num = random.randint(1, 100)
 
-while x != random_num:
+for x in range(4):
     if random_num > x:
         x = int(input("Higher."))
     else:
@@ -11,3 +11,5 @@ while x != random_num:
 else:
     if random_num == x:
         print("Correct!")
+if x != random_num:
+    print("Out of Attempts.")
